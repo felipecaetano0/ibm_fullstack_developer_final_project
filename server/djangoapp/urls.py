@@ -5,12 +5,14 @@ from . import views
 
 app_name = 'djangoapp'
 urlpatterns = [
-    # # path for registration
+    path('test-cors/', views.test_cors),
+
+    # path for registration
+    path(route='register', view=views.registration, name='register'),
 
     # path for login
     path(route='login', view=views.login_user, name='login'),
     path(route='logout', view=views.logout_request, name='logout'),
-    path('test-cors/', views.test_cors),
 
     # path for dealer reviews view
 
