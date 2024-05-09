@@ -135,13 +135,12 @@ img{
 .card_contact {
   border: rgb(103, 102, 105) 3px solid;
   width: clamp(30vw, 80vw, 100vw);
-  height: clamp(30vh, 80vh, 100vh);
   display: flex;
   flex-direction: column;
   padding: 1%;
+  border-radius: 5pt;
 }
 
 .visual {
-    height: 40vh;
-    width: 40vw;
+    /* width: clamp(30vw, 80vw, 100vw) ; */
   }
